@@ -21,15 +21,15 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
           className='flex items-center gap-2' >
-          <img className='w-9 h-9 object-contain' src={logo} alt='logo' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex'>Shin &nbsp; <span className='sm:block hidden'>| Backend Developer</span> </p>
+          {/* <img className='w-9 h-9 object-contain' src={logo} alt='logo' /> */}
+          <p className='text-white text-[18px] font-bold cursor-pointer flex'>Shin.<span className='sm:block hidden text-[#4070f4]'>Software Developer</span> </p>
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((link) => (
             <li key={link.id}
               className={`${active === link.title ?
                 "text-white" :
-                "text-secondary"} hover:text-white text-[18px] font-medium cursor-pointer`}
+                "text-secondary"} hover:text-white text-[15px] font-medium cursor-pointer`}
               onClick={() => setActive(title)}
             >
               <a href={`#${link.id}`}>{link.title}</a>
