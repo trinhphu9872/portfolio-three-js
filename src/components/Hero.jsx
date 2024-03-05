@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 //
 import { styles } from '../styles'
-import { ComputersCanvas } from './canvas'
+import { ComputersCanvas, DonutCanvas } from './canvas'
 // import { navLinks } from '../constants'
 // import { logo, menu, close } from '../assets'
 
@@ -15,13 +15,17 @@ const Hero = () => {
           <div className='w-1 sm:h-80 h-40 violet-gradient'></div>
         </div>
         <div>
-          <h1 className={`${styles.heroHeadText} text-secondary`}>Hi, I'm <span className='text-[#4070f4]'>Trinh Ngoc Phu</span></h1>
-          <p className={`${styles.heroSubText} mt-2 text-secondary`}>
-            I Develop 3D visua, User Interface <br className='sm:block hidden' /> and Web applications.
+          <h1 className={`${styles.heroHeadText} text-secondary `}>Hi, I'm <span className='text-[#4070f4]'>Trinh Ngoc Phu</span></h1>
+          <p className={`${styles.heroSubText} mt-2 text-white  `}>
+            I develop Mobile and Web applications.
+            <br className='sm:block hidden' />
+            I am passionate about software development and look forward to working with you in the future
           </p>
         </div>
       </div>
-      <ComputersCanvas />
+
+      <DonutCanvas />
+
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href="#about">
           <div className='w-[35px]  h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p2'>
