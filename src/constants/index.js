@@ -60,6 +60,9 @@ const services = [
     {
         title: "Backend Developer",
         icon: backend,
+    }, {
+        title: "Content Creator",
+        icon: creator,
     },
 ];
 
@@ -132,6 +135,32 @@ const experiences = [
             "Demo.",
         ],
     },
+    {
+        title: "React.js Developer",
+        company_name: "Bro",
+        icon: starbucks,
+        iconBg: "#383E56",
+        date: "March 2020 - April 2021",
+        points: [
+            "Demo",
+            "Demo",
+            "Demo",
+            "Demo.",
+        ],
+    },
+    {
+        title: "React.js Developer",
+        company_name: "Bro",
+        icon: starbucks,
+        iconBg: "#383E56",
+        date: "March 2020 - April 2021",
+        points: [
+            "Demo",
+            "Demo",
+            "Demo",
+            "Demo.",
+        ],
+    },
 
 ];
 
@@ -159,6 +188,7 @@ const projects = [
         image: carrent,
         source_code_link: "https://github.com/",
     },
+
 ]
 
 export { services, technologies, experiences, projects };
